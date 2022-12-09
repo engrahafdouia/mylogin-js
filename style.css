@@ -1,0 +1,65 @@
+body{
+    background-image: url('./img/pexels-vlada-karpovich-4050315.jpg');
+    background-size: cover;
+height: 100vh
+
+}
+header{
+    background-color: #fce7d8bb;
+}
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  
+  #my-form {
+    padding: 4rem;
+    background:#fce7d8;
+    color: black;
+    border-radius: 15px;
+    /* margin-top: 24%; */
+  }
+  
+  #my-form label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  #my-form  input[type='text'] ,input[type='email'] {
+    width: 100%;
+    padding: 1px 5px;
+    /* border-radius: 5px; */
+    border: none;
+    border-bottom: 1px solid rgb(97, 93, 93);
+    background: none;
+    outline: none;
+    font-size: 16px;
+  }
+  /* label{
+   
+  } */
+  #my-form label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top:10px
+  }
+ .buttons .button{
+    background-color: #ccaa91;
+  }
+ ul li{
+    background: #fce7d8;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 15px; 
+    padding: 5px;
+  color: black;
+       
+ }
+.error{
+    background-color: rgb(255, 95, 95);
+    padding:10px
+}
